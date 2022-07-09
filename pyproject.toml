@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "continue_documents"
+version = "0.1.0"
+description = "Would be document syncer"
+authors = ["Mahir Labib Chowdhury <optical.mahir@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.6"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+pre-commit = "^2.19.0"
+flake8 = "^4.0.1"
+mypy = "^0.961"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
