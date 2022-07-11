@@ -1,4 +1,3 @@
-from distutils.debug import DEBUG
 from .base import *
 
 DEBUG = False
